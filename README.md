@@ -14,7 +14,7 @@ Have you ever endlessly debated with your friends about where to meet for lunch,
 
 ![Mock](voterMockUI.jpg)
 
-Here is a sequence diagram that shows how to people would interact with the backend to vote.
+Here is a sequence diagram that shows how two people would interact with the backend to vote.
 
 ```mermaid
 sequenceDiagram
@@ -46,7 +46,7 @@ I am going to use the required technologies in the following ways.
 
 - **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-- **React** - Provides login, choice display, applying votes, display other users votes, and use of React for routing and components.
+- **React** - Provides login, choice display, applying votes, display other users' votes, and use of React for routing and components.
 - **Service** - Backend service with endpoints for:
   - login
   - retrieving choices
